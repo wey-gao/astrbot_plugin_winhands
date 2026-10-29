@@ -1,0 +1,13 @@
+name: astrbot_plugin_winhands
+display_name: 桌面之手
+short_desc: 让模型直接看屏幕、动鼠标、敲键盘，真正操作 Windows 桌面
+desc: >
+  把 Windows 桌面交给模型：截图看屏（图片直接进上下文）、移动与点击鼠标、
+  输入中文文字、按组合键、枚举与切换窗口、按按钮名字点击。
+  全部走真实输入事件（SendInput + UI Automation），
+  对浏览器、记事本、游戏客户端等大多数桌面程序有效。
+  只支持 Windows，依赖系统自带的 PowerShell 5.1，无第三方依赖。
+version: 1.0.0
+author: 大肥鱼
+repo: https://github.com/wey-gao/astrbot_plugin_winhands
+astrbot_version: ">=4.28.0"
