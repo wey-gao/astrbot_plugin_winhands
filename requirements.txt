@@ -1,0 +1,2 @@
+# 本插件不依赖任何第三方 Python 包。
+# 仅使用 AstrBot 自带依赖与 Windows 系统自带 PowerShell。
