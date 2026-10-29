@@ -1,0 +1,38 @@
+{
+  "enabled": {
+    "description": "启用桌面操作能力",
+    "hint": "关掉后所有工具和指令都会被拒绝",
+    "type": "bool",
+    "default": true
+  },
+  "allow_users": {
+    "description": "允许操作电脑的用户白名单（QQ 号）",
+    "hint": "留空表示不限制任何人，危险，建议至少填自己的号",
+    "type": "list",
+    "default": [],
+    "items": {}
+  },
+  "screenshot_max_width": {
+    "description": "截图最大宽度（像素）",
+    "hint": "越大越清晰但越费 token，1280 一般够用",
+    "type": "int",
+    "default": 1280
+  },
+  "text_max_length": {
+    "description": "单次输入文字的长度上限",
+    "hint": "太长容易触发误操作，超了会要求分段",
+    "type": "int",
+    "default": 2000
+  },
+  "timeout": {
+    "description": "单次操作超时（秒）",
+    "type": "int",
+    "default": 60
+  },
+  "powershell": {
+    "description": "PowerShell 可执行文件",
+    "hint": "默认 powershell；装了 PowerShell 7 可填 pwsh",
+    "type": "string",
+    "default": "powershell"
+  }
+}
