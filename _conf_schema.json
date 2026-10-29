@@ -9,8 +9,7 @@
     "description": "允许操作电脑的用户白名单（QQ 号）",
     "hint": "留空表示不限制任何人，危险，建议至少填自己的号",
     "type": "list",
-    "default": [],
-    "items": {}
+    "default": []
   },
   "screenshot_max_width": {
     "description": "截图最大宽度（像素）",
